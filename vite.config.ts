@@ -6,6 +6,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
   return {
+    base: '/toposUTS/',
     plugins: [
       react(),
       tailwindcss(),
@@ -13,7 +14,7 @@ export default defineConfig(() => {
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'icon.svg'],
         manifest: {
-          id: '/',
+          id: '/toposUTS/',
           name: 'Golpea al Topo Binario: ¡Whack-a-Mole!',
           short_name: 'TopoBinario',
           description: 'Juego interactivo tipo Golpea al Topo para aprender y dominar la conversión de números binarios a decimales en 10 niveles.',
@@ -21,23 +22,23 @@ export default defineConfig(() => {
           background_color: '#162e10',
           display: 'standalone',
           orientation: 'portrait',
-          start_url: '/',
-          scope: '/',
+         start_url: '/toposUTS/',
+         scope: '/toposUTS/',
           icons: [
             {
-              src: '/pwa-192x192.png',
+              src: '/toposUTS/pwa-192x192.png',
               sizes: '192x192',
               type: 'image/png',
               purpose: 'any',
             },
             {
-              src: '/pwa-512x512.png',
+              src: '/toposUTS/pwa-512x512.png',
               sizes: '512x512',
               type: 'image/png',
               purpose: 'any',
             },
             {
-              src: '/pwa-maskable-512x512.png',
+              src: '/toposUTS/pwa-maskable-512x512.png',
               sizes: '512x512',
               type: 'image/png',
               purpose: 'maskable',
