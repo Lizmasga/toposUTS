@@ -1,0 +1,6 @@
+{
+  "name": "Golpea al Topo Binario: ¡Whack-a-Mole!",
+  "description": "Juego tipo Golpea al Topo para aprender y dominar los números binarios en 10 niveles, con medallas desbloqueables, marcadores globales y topos interactivos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

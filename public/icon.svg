@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="100" fill="#244219"/>
+  <!-- Meadow hill gradient circle -->
+  <circle cx="256" cy="256" r="220" fill="#d9cb96" stroke="#4a7c36" stroke-width="12"/>
+  <!-- Mole Hole -->
+  <ellipse cx="256" cy="360" rx="150" ry="45" fill="#24170e" stroke="#160d07" stroke-width="8"/>
+  <!-- Mole emerging -->
+  <path d="M176 340 C176 220 336 220 336 340 Z" fill="#6d4c3d" stroke="#3d271d" stroke-width="8"/>
+  <!-- Mole Eyes with white highlights -->
+  <circle cx="230" cy="275" r="10" fill="#000000"/>
+  <circle cx="233" cy="272" r="3" fill="#ffffff"/>
+  <circle cx="282" cy="275" r="10" fill="#000000"/>
+  <circle cx="285" cy="272" r="3" fill="#ffffff"/>
+  <!-- Mole Snout -->
+  <ellipse cx="256" cy="295" rx="20" ry="14" fill="#f4a582" stroke="#a65636" stroke-width="4"/>
+  <!-- Mole Paws -->
+  <ellipse cx="190" cy="355" rx="22" ry="14" fill="#e59877" stroke="#7a4026" stroke-width="4"/>
+  <ellipse cx="322" cy="355" rx="22" ry="14" fill="#e59877" stroke="#7a4026" stroke-width="4"/>
+  <!-- Dirt mounds -->
+  <ellipse cx="160" cy="375" rx="45" ry="20" fill="#8c6b4f"/>
+  <ellipse cx="352" cy="375" rx="45" ry="20" fill="#8c6b4f"/>
+  <ellipse cx="256" cy="385" rx="80" ry="25" fill="#9c795b"/>
+  <!-- Speech Bubble above Mole -->
+  <rect x="136" y="110" width="240" height="85" rx="28" fill="#fbf5df" stroke="#1a1a1a" stroke-width="8"/>
+  <polygon points="256,220 240,195 272,195" fill="#1a1a1a"/>
+  <polygon points="256,210 243,195 269,195" fill="#fbf5df"/>
+  <text x="256" y="165" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="36" fill="#1a1a1a">1010 = 10</text>
+  <!-- Stars -->
+  <text x="350" y="240" font-size="32">⭐</text>
+  <!-- Game Title at top -->
+  <text x="256" y="80" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="28" fill="#fef08a" letter-spacing="2">GOLPEA AL TOPO</text>
+</svg>
